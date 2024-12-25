@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/ib_navigation_back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_login_navigation_bar"
+        android:contentDescription="@null"
+        app:srcCompat="@mipmap/btn_back_normal" />
+
+    <Button
+        android:id="@+id/addsm"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="添加管理员"
+        android:layout_marginLeft="150dp"
+        android:textSize="20dp"
+        android:background="#03A9F4"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/deletesm"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="删除管理员"
+        android:layout_marginLeft="150dp"
+        android:textSize="20dp"
+        android:background="#03A9F4"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/chaxunsm"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="查询管理员"
+        android:layout_marginLeft="150dp"
+        android:textSize="20dp"
+        android:background="#03A9F4"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>

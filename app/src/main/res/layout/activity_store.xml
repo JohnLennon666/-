@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_login_navigation_bar"
+        android:contentDescription="@null"
+        app:srcCompat="@mipmap/btn_back_normal" />
+
+    <Button
+        android:id="@+id/out"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="出库"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="20dp"
+        android:background="#2196F3"
+        android:textColor="#ffffff"
+        />
+
+
+    <Button
+        android:id="@+id/in"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="入库 "
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="20dp"
+        android:background="#2196F3"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/chazhao"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="查找商品"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="20dp"
+        android:background="#2196F3"
+        android:textColor="#ffffff"
+        />
+</LinearLayout>
